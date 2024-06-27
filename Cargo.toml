@@ -1,0 +1,21 @@
+[package]
+name = "ora"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bson = "2.11.0"
+chrono = "0.4.38"
+clap = "4.5.7"
+hex = "0.4.3"
+regex = "1.10.5"
+ring = "0.17.8"
+serde = "1.0.203"
+
+[dependencies.uuid]
+version = "1.9.1"
+features = [
+    "v4",                # Lets you generate random UUIDs
+    "fast-rng",          # Use a faster (but still sufficiently random) RNG
+    "macro-diagnostics", # Enable better diagnostics for compile-time UUIDs
+]
