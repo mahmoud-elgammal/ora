@@ -8,7 +8,6 @@ use std::string::String;
 
 mod encryptor;
 mod error;
-mod table;
 mod vault;
 mod storage;
 mod register;
