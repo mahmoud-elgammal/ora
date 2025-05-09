@@ -9,7 +9,7 @@ chrono = "0.4.38"
 clap = "4.5.7"
 hex = "0.4.3"
 regex = "1.10.5"
-ring = "0.17.8"
+ring = "0.17.13"
 serde = "1.0.203"
 
 [dependencies.uuid]
